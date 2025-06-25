@@ -74,3 +74,81 @@ This project is ideal for quick demos, teaching fundamentals, or as a template f
    ```bash
    git clone https://github.com/hemathens/mini-projects-hub.git
    cd mini-projects-hub
+
+## ▶️ Usage
+Open index.html in your browser (via Live Server or double-click).
+
+Use the Select Mini Project dropdown to pick any tool.
+
+Press Home to return to the welcome page.
+
+Your last-opened project will reload automatically on refresh.
+
+## 📂 Project Structure
+mini-projects-hub/
+│
+├── index.html        # Main dashboard
+├── home.html         # Landing / about page
+├── style.css         # Global styles
+├── script.js         # Dashboard logic
+│
+├── stop-watch/       # Project 1: Stop Watch
+│   └── stop-watch.html
+│
+├── code-editor/      # Project 2: Code Compiler
+│   └── code-editor.html
+│
+├── form-validat/     # Project 3: Login Form Validator
+│   └── form-validat.html
+│
+├── day-of-week/      # Project 4: Random Quotes
+│   └── day-of-week.html
+│
+├── css-changer/      # Project 5: CSS Changer App
+│   └── css-changer.html
+│
+└── random-number-generator/  # Project 6: Probability Analyzer
+    └── random-number-generator.html
+
+## 🔍 Mini-Projects Overview
+| Project                     | Description                                                 |
+| --------------------------- | ----------------------------------------------------------- |
+| **Stop Watch**              | Lap timer with start, stop, reset, and lap logging.         |
+| **Code Compiler**           | In-browser code editor supporting HTML/CSS/JS live preview. |
+| **Login Form Validator**    | Client-side validation for username/email/password.         |
+| **Random Quotes Generator** | Displays a fresh random quote on each load.                 |
+| **CSS Changer App**         | Live CSS theme switcher with upload & save features.        |
+| **Probability Analyzer**    | Generates random numbers, dice, and cards with stats.       |
+
+## ⚙️ Customization & Deployment
+
+-To add a new mini-project:
+-Create a new folder under root.
+-Add your *.html, *.css, *.js.
+-Update index.html → <a data-page="your-folder/your-file.html">…</a>.
+-Deploying on Vercel:
+-Push to GitHub.
+-Import repo at vercel.com/new.
+-Set framework to “Static”, root /, and click Deploy.
+
+## 🤝 Contributing
+
+Fork this repository.
+Create a feature branch: git checkout -b feature/YourFeature
+Commit your changes: git commit -m "Add YourFeature"
+Push to branch: git push origin feature/YourFeature
+Open a Pull Request—happy to review and merge!
+
+## 📬 Contact & Links
+
+If you have questions, ideas, or want to collaborate:
+
+🔗 LinkedIn: https://www.linkedin.com/in/hem-patel19
+
+🧠 Kaggle: https://www.kaggle.com/hemajitpatel
+
+💻 GitHub: https://github.com/hemathens
+
+## 📄 License
+This project is released under the MIT License.
+Feel free to use, modify, and share—no attribution required beyond a link back!
