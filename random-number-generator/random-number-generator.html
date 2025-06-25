@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ultimate Random Generator</title>
+  <link rel="stylesheet" href="random-number-generator.css" />
+</head>
+<body>
+  <div class="theme-toggle">
+    <label>
+      🌗 <input type="checkbox" id="themeSwitch"> Dark Mode
+    </label>
+  </div>
+
+  <div class="container">
+    <h1>Random Generator & Probability Analyzer</h1>
+
+    <!-- Number Generator -->
+    <div class="section">
+      <h3>🎯 Random Number Generator</h3>
+      <label>From: <input type="number" id="minRange" value="1"></label>
+      <label>To: <input type="number" id="maxRange" value="100"></label>
+      <button id="generatorBtn">Generate</button>
+      <p id="numberResult">0</p>
+    </div>
+
+    <!-- Dice Roller -->
+    <div class="section">
+      <h3>🎲 Dice Roller</h3>
+      <button id="diceBtn">Roll Dice</button>
+      <div class="dice" id="dice">🎲</div>
+      <p id="diceResult">Roll: -</p>
+    </div>
+
+    <!-- Card Drawer -->
+    <div class="section">
+      <h3>🃏 Card Drawer</h3>
+      <button id="cardBtn">Draw Card</button>
+      <img id="cardImage" src="" alt="Card Image" class="card-img">
+      <p id="cardResult">Card: -</p>
+    </div>
+
+    <!-- Reset -->
+    <button id="resetBtn" class="reset-btn">♻️ Reset Data</button>
+
+    <!-- Probability Analyzer -->
+    <div class="probability-box">
+      <h3>📊 Probability Analysis</h3>
+      <p id="probability">Results will appear here.</p>
+    </div>
+
+    <!-- Bayes Theorem Explainer -->
+    <div class="bayes-box">
+      <h3>🔍 Bayes' Theorem Explanation</h3>
+      <canvas id="bayesChart" width="300" height="200"></canvas>
+      <p class="bayes-text">
+        Bayes' Theorem calculates conditional probability: <br>
+        <strong>P(A|B) = [P(B|A) × P(A)] / P(B)</strong>
+      </p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="random-number-generator.js"></script>
+</body>
+</html>

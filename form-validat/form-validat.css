@@ -1,0 +1,178 @@
+:root {
+  --bg-gradient-light: linear-gradient(270deg, #fbc2eb, #a6c1ee, #fdcbf1);
+  --bg-gradient-dark: linear-gradient(270deg, #2c3e50, #4ca1af);
+  --container-bg-light: #ffffff;
+  --container-bg-dark: #2a2a2a;
+  --text-light: #333;
+  --text-dark: #f2f2f2;
+  --accent-color: #f09433;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg-gradient-light);
+  background-size: 1000% 1000%;
+  animation: bgMove 20s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  transition: background 0.5s ease;
+}
+
+@keyframes bgMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.mode-toggle button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #444;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.mode-toggle button:hover {
+  background-color: #666;
+}
+
+.container {
+  background: var(--container-bg-light);
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  width: 400px;
+  padding: 20px 40px;
+  animation: slideFade 0.5s ease;
+  transition: background 0.3s ease;
+}
+
+@keyframes slideFade {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.header h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--text-light);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.controlform {
+  display: flex;
+  flex-direction: column;
+}
+
+.controlform label {
+  font-weight: 600;
+  color: var(--text-light);
+}
+
+.controlform input {
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  margin-top: 5px;
+  font-size: 15px;
+  transition: border 0.3s;
+}
+
+.controlform input:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
+.controlform.success input {
+  border-color: #00e676;
+}
+
+.controlform.fail input {
+  border-color: #ff1744;
+}
+
+.controlform small {
+  color: #ff1744;
+  visibility: hidden;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.controlform.fail small {
+  visibility: visible;
+}
+
+.forgot {
+  font-size: 13px;
+  color: #0077cc;
+  cursor: pointer;
+  margin-top: 5px;
+  text-decoration: underline;
+  align-self: flex-end;
+}
+
+button {
+  padding: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
+
+.switch-button {
+  background: none;
+  border: 2px solid #ccc;
+  color: #444;
+  margin-top: -5px;
+}
+
+body.dark {
+  background: var(--bg-gradient-dark);
+}
+
+body.dark .container {
+  background: var(--container-bg-dark);
+}
+
+body.dark .header h1,
+body.dark label,
+body.dark .switch-button,
+body.dark .forgot {
+  color: var(--text-dark);
+}
+
+body.dark input {
+  background-color: #1f1f1f;
+  color: white;
+  border: 1px solid #444;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mini Projects Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Banner -->
+  <div class="banner">
+    <h1>🚀 Welcome to Mini Projects Hub</h1>
+    <button id="backHomeBtn">🏠 Home</button>
+  </div>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn">📂 Select Mini Project ⮟</button>
+      <div class="dropdown-content" id="projectList">
+        <input type="text" id="searchBar" placeholder="Search projects...">
+        <a href="#" data-page="css-changer/css-changer.html">🎨 CSS Changer</a>
+        <a href="#" data-page="code-editor/code-editor.html">🧑‍💻 Code Compiler</a>
+        <a href="#" data-page="form-validat/form-validat.html">🔐 Login Page</a>
+        <a href="#" data-page="day-of-week/day-of-week.html">📅 Random Quotes</a>
+        <a href="#" data-page="stop-watch/stop-watch.html">🕐 Stop Watch</a>
+        <a href="#" data-page="random-number-generator/random-number-generator.html">🎲 Probability Analyzer</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Iframe Display -->
+  <div class="iframe-container">
+    <iframe id="projectFrame" src="home.html" frameborder="0"></iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

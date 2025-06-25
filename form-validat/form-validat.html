@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login & Sign Up</title>
+  <link rel="stylesheet" href="form-validat.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="dark">
+  <div class="mode-toggle">
+    <button id="themeToggleBtn">Toggle Light Theme</button>
+  </div>
+
+  <div class="container" id="container">
+    <div class="header">
+      <h1 id="formTitle">Welcome Back</h1>
+    </div>
+    <form id="form" class="form">
+      <div class="controlform">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter your name" />
+        <small class="error"></small>
+      </div>
+
+      <div class="controlform" id="emailGroup">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+        <small class="error"></small>
+      </div>
+
+      <div class="controlform">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" />
+        <small class="error"></small>
+        <p class="forgot" id="forgotPassword" onclick="sendPassword()">Forgot your password?</p>
+      </div>
+
+      <div class="controlform" id="confirmPasswordGroup">
+        <label for="passwordcheck">Confirm Password</label>
+        <input type="password" id="passwordcheck" placeholder="Repeat your password" />
+        <small class="error"></small>
+      </div>
+
+      <button type="submit" id="mainButton">Login</button>
+      <button type="button" class="switch-button" onclick="toggleForm()" id="switchBtn">New? Sign Up</button>
+    </form>
+  </div>
+
+  <script src="form-validat.js"></script>
+</body>
+</html>
