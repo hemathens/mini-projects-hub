@@ -1,36 +1,70 @@
-# 20_HTML-CSS-JS-Beginner-Projects
+# Mini Projects Hub
 
-This repository contains 20 beginner-friendly web development projects built using HTML, CSS, and JavaScript. **These projects were done by me during my personal learning journey to enhance my front-end development skills.** 
+A collection of small, focused web tools showcasing core JavaScript, HTML, and CSS skills—packaged together under a single, easy-to-navigate dashboard. Each mini-project lives in its own folder and can be launched right from the hub.
 
-**Projects:**
+---
 
-1. News Article Pop-up
-2. CSS Changer
-3. Counter Web
-4. Live Character Count
-5. Random Number Generator
-6. Weight Converter
-7. Code Editor
-8. Day of the Week
-9. Stop-Watch
-10. Write-a-Message
-11. FORM Validation
-12. Color Changer With Button
-13. Accordion Project
-14. Telephone Formatter
-15. Cursor Animation
-16. HEX Color Generator
-17. Piano Application
-18. Background Color
-19. The Popover
-20. FD Calculator
+## 🚀 Live Demo
 
-**Getting Started:**
+🔗 [Click Here](https://mini-projects-7q7cxnna9-hem-patels-projects.vercel.app/)
+*(Deployed on Vercel — updates auto-deploy on every push to `main`)*
 
-1. Clone the repository: `git clone <repository_url>`
-2. Navigate to the project directory: `cd 20_HTML-CSS-JS-Beginner-Projects`
-3. Open the project in your preferred code editor.
+---
 
-**Learning Resources:**
-[JavaScript 20 Projects In 20 Days HTML, CSS & JavaScript](https://www.udemy.com/course/javascript-20-projects-in-20-days-html-css-javascript/?couponCode=ST21MT121624)
+## 📋 Table of Contents
 
+- [About](#about)  
+- [Features](#features)  
+- [Getting Started](#getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [Installation](#installation)  
+- [Usage](#usage)  
+- [Project Structure](#project-structure)  
+- [Mini-Projects Overview](#mini-projects-overview)  
+- [Customization & Deployment](#customization--deployment)  
+- [Contributing](#contributing)  
+- [Contact & Links](#contact--links)  
+- [License](#license)  
+
+---
+
+## 📖 About
+
+**Mini Projects Hub** is a single-page dashboard that hosts six lightweight web applications, each demonstrating a particular concept or feature:
+
+- **Stop Watch** ⏱️ — lap timer with start/stop/reset  
+- **Code Compiler** 🧑‍💻 — in-browser code editor & runner  
+- **Login Form Validator** 🔐 — client-side form validation  
+- **Random Quotes Generator** 📅 — fetches and displays random messages  
+- **CSS Changer App** 🎨 — dynamic CSS theme switcher  
+- **Random Number & Probability Analyzer** 🎲 — number/dice/card generator with live stats  
+
+This project is ideal for quick demos, teaching fundamentals, or as a template for your own micro-apps.
+
+---
+
+## ✨ Features
+
+- **Unified Dashboard** with searchable dropdown navigator  
+- **Persistent State**: remembers last-opened project on refresh  
+- **Responsive Design**: works on desktop and mobile  
+- **Dark/Light Mode** switch  
+- **Interactive IFrame Loader** for seamless navigation  
+- **Home Page** with personal introduction and profile links  
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Git  
+- Node.js & npm (optional, only if you plan to run a local server via packages)  
+- Or Python 3.x for simple HTTP serving  
+
+### Installation
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/hemathens/mini-projects-hub.git
+   cd mini-projects-hub
