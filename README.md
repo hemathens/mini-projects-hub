@@ -19,18 +19,18 @@ A collection of small, focused web tools showcasing core JavaScript, HTML, and C
 
 ## 📋 Table of Contents
 
-- [About](#about)  
-- [Features](#features)  
-- [Getting Started](#getting-started)  
+- [About](https://github.com/hemathens/mini-projects-hub/blob/main/README.md#-about)  
+- [Features](https://github.com/hemathens/mini-projects-hub/blob/main/README.md#-features)  
+- [Getting Started](https://github.com/hemathens/mini-projects-hub/blob/main/README.md#%EF%B8%8F-getting-started)  
   - [Prerequisites](#prerequisites)  
   - [Installation](#installation)  
-- [Usage](#usage)  
+- [Usage](https://github.com/hemathens/mini-projects-hub/blob/main/README.md#%EF%B8%8F-usage)  
 - [Project Structure](#project-structure)  
 - [Mini-Projects Overview](#mini-projects-overview)  
-- [Customization & Deployment](#customization--deployment)  
-- [Contributing](#contributing)  
-- [Contact & Links](#contact--links)  
-- [License](#license)  
+- [Customization & Deployment](https://github.com/hemathens/mini-projects-hub/blob/main/README.md#%EF%B8%8F-customization--deployment)  
+- [Contributing](https://github.com/hemathens/mini-projects-hub/blob/main/README.md#%EF%B8%8F-customization--deployment)  
+- [Contact & Links](https://github.com/hemathens/mini-projects-hub/blob/main/README.md#-contact--links)  
+- [License](https://github.com/hemathens/mini-projects-hub/blob/main/README.md#-license)  
 
 ---
 
