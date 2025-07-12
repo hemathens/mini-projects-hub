@@ -85,6 +85,8 @@ Press Home to return to the welcome page.
 Your last-opened project will reload automatically on refresh.
 
 ## 📂 Project Structure
+
+```Folder structure
 mini-projects-hub/
 │
 ├── index.html        # Main dashboard
@@ -109,6 +111,7 @@ mini-projects-hub/
 │
 └── random-number-generator/  # Project 6: Probability Analyzer
     └── random-number-generator.html
+```
 
 ## 🔍 Mini-Projects Overview
 | Project                     | Description                                                 |
